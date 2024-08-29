@@ -1,6 +1,5 @@
 #!/bin/bash
 echo RUNNING LAST UPDATE =============================
-sudo apt --assume-yes update
-sudo apt --assume-yes upgrade
-
-echo END SETUP VSCODE =============================
+sudo apt-get update  
+sudo apt-get -y upgrade
+echo END SETUP UPDATE =============================

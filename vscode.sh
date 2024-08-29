@@ -7,7 +7,7 @@ echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft
 rm -f packages.microsoft.gpg
 
 sudo apt --assume-yes install apt-transport-https
-sudo apt  update
+sudo apt update
 sudo apt --assume-yes install code
 
 echo END SETUP VSCODE =============================
